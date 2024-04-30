@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/slider.css">
+<link rel="stylesheet" href="css/about.css">
+<link rel="stylesheet" href="css/style2.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+<title>Sign Up</title>
+</head>
+<body>
+<section class="bg">
+  <div class="container">
+    <div class="row ">
+      <div class="col-12 col-lg-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"> <a href="index.html"><img src="images/logo.png" class="img-fluid" alt="Responsive image"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-md-auto">
+              <li class="nav-item active"> <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a> </li>
+            
+              <li class="nav-item"> <a class="nav-link" href="book.html">BOOKS</a> 
+              
+              </li>
+              
+              
+              <div class="col-md-3">
+                <button class="btn btn-success btn-login" type="submit"><a href="sign.html">Signup</a></button>
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-3">
+                <button class="btn btn-success btn-login" type="submit"><a href="login.html">login</a></button>
+              </div>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-12 pb-5 pt-5">
+        <h1><b>Sign Up</b></h1>
+        <h4>If You Don't Have an Account, please sign up!</h4>
+      </div>
+    </div>
+    </div></section><br><br>
+
+  
+<section class="signup-sec">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-6 mb-4">
+                <div class="login-area">
+                    <form onsubmit="return formvalidate()" action="login.html">
+                        <h4 >Sign Up or Create an Account</h4>
+                        <p class="font-weight-600">If you don't have an account with us, please Registration.</p>
+                        <div class="mb-4">
+                            <label>Username *</label>
+                            <input  required="" class="form-control" placeholder="Your Username" type="text">
+                        </div>
+                        <div class="mb-4">
+                          <label>Phone Number *</label>
+                          <input  required="" class="form-control" placeholder="Your Phone Number" type="phone" id="phone" oninput="this.value = this.value.replace(/[^0-9]/g, '')"  maxlength="10">
+                          <label id="phone-error"></label>
+                      </div>
+                    
+                        <div class="mb-4">
+                            <label>Email address *</label>
+                            <input  required="" class="form-control" placeholder="Your Email address" type="email" id="email">
+                            <label id="email-error"></label>
+
+                        </div>
+                        <div class="mb-4">
+                            <label >Password *</label>
+                            <input  required="" class="form-control " placeholder="Type Password" type="password" onkeyup="checkPasswordStrength2()" id="password">
+                            <span id="password-strength" class="strength-label"></span>
+                        </div>
+                      
+                        <div class="text-left">
+                            <button class="btn btn-success w-50 me-2 reg-btn">Sign Up</button><BR>
+                            <p style="margin-left: 22%;margin-top: 12px;">OR</p><p style="margin-left: 8%;">Already have an Account?</p> <button class="btn btn-success w-50 me-2 reg-btn">Login</button>
+                          
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="foot">
+    <div class="container bottom_border">
+      <div class="row ">
+        <div class="col-lg-12 pt-5 pb-5">
+          <p>© Copyright 2024 Library All Rights Reserved </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js" ></script>
+  <script src="js/pslider.js" ></script>
+  <script src="js/slider.js" ></script>
+  <script src="js/script.js" ></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+  <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+  </body>
+  </html>
